@@ -7,7 +7,7 @@ import pandas as pd # read csv, df manipulation
 import plotly.express as px # interactive charts 
 
 
-df = pd.read_csv("streamlit/total_gg_hcm.csv")
+df = pd.read_csv("https://github.com/Kten987/streamlit/blob/ea2519c94a15fb22d557baba8b2576538270cfde/streamlit/total_gg_hcm.csv")
 df.drop(['address_ward', 'address_street', 'address_city', 'address_postal_code', 'address_state', 'address_country_code'], axis=1, inplace=True)
 # Display the dataframe using Streamlit
 st.header("KV MAP")
