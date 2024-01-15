@@ -4,7 +4,7 @@ import pydeck as pdk
 import streamlit as st # web development
 import numpy as np # np mean, np random 
 import pandas as pd # read csv, df manipulation
-#import plotly.express as px # interactive charts 
+
 
 
 df = pd.read_csv("https://raw.githubusercontent.com/Kten987/streamlit/ea2519c94a15fb22d557baba8b2576538270cfde/streamlit/total_gg_hcm.csv")
