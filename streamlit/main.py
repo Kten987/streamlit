@@ -16,7 +16,7 @@ password = st.text_input("Password", type="password")
 login_button = st.button("Login")
 
 # Check if the username and password are correct
-if username == "kten987" and password == "Taolaisowaco":
+if username == "kten987" and password == "test123":
     logged_in = True
     st.write("<span style='color:green'>Đăng nhập thành công</span>", unsafe_allow_html=True)
 else:
