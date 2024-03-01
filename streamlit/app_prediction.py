@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import pickle
-pip install plotly.express
 import plotly.express as px
 import config
 
