@@ -2,8 +2,10 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import pickle
+import plotly
 import plotly.express as px
 import config
+
 
 class RealEstatePredictor:
     def __init__(self):
